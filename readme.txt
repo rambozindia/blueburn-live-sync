@@ -4,7 +4,7 @@ Tags: sync, migration, localwp, staging, deployment
 Requires at least: 5.6
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,9 @@ Multisite is detected and reported but not fully tested. Use with caution.
 It is excluded from exports and preserved during imports — your live database credentials are never touched.
 
 == Changelog ==
+
+= 1.2.1 =
+* Fixed: host-specific `.user.ini` files (open_basedir etc.) are now excluded from exports — they broke PHP on the destination environment ("No input file specified")
 
 = 1.2.0 =
 * Security: export files now use random-token filenames (protection on nginx hosts)

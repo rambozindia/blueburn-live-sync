@@ -3,7 +3,7 @@
  * Plugin Name: Live Sync Companion
  * Plugin URI:  https://github.com/rambozindia/live-sync-companion
  * Description: Companion plugin for the "WP Live Sync" add-on for Local. Exposes REST API endpoints for pulling/pushing your WordPress site.
- * Version:     1.2.0
+ * Version:     1.2.1
  * Author:      Ramkumar R / 24GB
  * Author URI:  https://24gb.uk
  * License:     GPLv2 or later
@@ -18,7 +18,7 @@
 
 defined('ABSPATH') || exit;
 
-define('WPLSYNC_VERSION', '1.2.0');
+define('WPLSYNC_VERSION', '1.2.1');
 define('WPLSYNC_TEMP_DIR', WP_CONTENT_DIR . '/wp-sync-temp');
 
 /**

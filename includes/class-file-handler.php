@@ -25,6 +25,16 @@ class WPLSync_File_Handler {
         'wp-sync-temp',
     ];
 
+    /**
+     * Files to always exclude from exports. These carry host-specific PHP
+     * config (open_basedir etc.) that breaks the site when moved to a
+     * different server or a local environment.
+     */
+    const EXCLUDED_FILES = [
+        '.user.ini',
+        '.DS_Store',
+    ];
+
     /** Max seconds of add-work per export step request (zip compression on close adds more). */
     const TIME_BUDGET = 12;
 
@@ -337,6 +347,11 @@ class WPLSync_File_Handler {
 
             // Skip excluded directories
             if ($item->isDir() && in_array($filename, self::EXCLUDED_DIRS, true)) {
+                continue;
+            }
+
+            // Skip host-specific config files (any depth)
+            if ($item->isFile() && in_array($filename, self::EXCLUDED_FILES, true)) {
                 continue;
             }
 
