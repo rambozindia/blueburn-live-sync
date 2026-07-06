@@ -1,8 +1,8 @@
-# Live Sync Companion
+# BlueBurn Live Sync for LocalWP
 
 Sync your live WordPress site with [Local](https://localwp.com) — pull it into Local for development and push changes back over the REST API. No SSH or FTP needed.
 
-Live Sync Companion is the **server-side half** of the WP Live Sync add-on for Local. Install this plugin on your live WordPress site, connect from the Local add-on with an Application Password, and you can:
+BlueBurn Live Sync for LocalWP is the **server-side half** of the BlueBurn Live Sync add-on for Local. Install this plugin on your live WordPress site, connect from the Local add-on with an Application Password, and you can:
 
 - **Pull** your entire live site (database + files) into a Local site
 - **Create a brand-new Local site** directly from your live site in one click
@@ -19,14 +19,14 @@ Live Sync Companion is the **server-side half** of the WP Live Sync add-on for L
 
 - WordPress 5.6+ (Application Passwords built in)
 - PHP 7.4+ with the ZipArchive extension
-- The WP Live Sync add-on installed in Local on your computer
+- The BlueBurn Live Sync add-on installed in Local on your computer
 
 ## Installation
 
-1. Download this repository (or the latest [release](https://github.com/rambozindia/live-sync-companion/releases)) and upload the `live-sync-companion` folder to `/wp-content/plugins/`
-2. Activate **Live Sync Companion** in WP Admin → Plugins
+1. Download this repository (or the latest [release](https://github.com/rambozindia/blueburn-live-sync/releases)) and upload the `blueburn-live-sync` folder to `/wp-content/plugins/`
+2. Activate **BlueBurn Live Sync for LocalWP** in WP Admin → Plugins
 3. Create an Application Password: **Users → Profile → Application Passwords** → name it (e.g. "Local Sync") → **Add New** → copy the password
-4. In Local, open the **WP Live Sync** panel, enter your site URL, username, and the Application Password, then connect
+4. In Local, open the **BlueBurn Live Sync** panel, enter your site URL, username, and the Application Password, then connect
 
 ## REST API
 
@@ -65,4 +65,6 @@ See [readme.txt](readme.txt) for the full changelog.
 
 ---
 
-Made by [Ramkumar R](https://24gb.uk) · [BlueBurn Technologies](https://blueburn.in)
+Made by [BlueBurn Technologies](https://blueburn.in) — Ramkumar R
+
+*BlueBurn Live Sync is an independent product and is not affiliated with or endorsed by WP Engine or the Local (LocalWP) project.*
