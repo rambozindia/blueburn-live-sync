@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: BlueBurn Live Sync for LocalWP
+ * Plugin Name: BlueBurn Live Sync for Local
  * Plugin URI:  https://github.com/rambozindia/blueburn-live-sync
  * Description: Companion plugin for the BlueBurn Live Sync add-on for Local. Exposes REST API endpoints for pulling/pushing your WordPress site.
  * Version:     1.3.0

@@ -1,8 +1,8 @@
-# BlueBurn Live Sync for LocalWP
+# BlueBurn Live Sync for Local
 
 Sync your live WordPress site with [Local](https://localwp.com) — pull it into Local for development and push changes back over the REST API. No SSH or FTP needed.
 
-BlueBurn Live Sync for LocalWP is the **server-side half** of the BlueBurn Live Sync add-on for Local. Install this plugin on your live WordPress site, connect from the Local add-on with an Application Password, and you can:
+BlueBurn Live Sync for Local is the **server-side half** of the BlueBurn Live Sync add-on for Local. Install this plugin on your live WordPress site, connect from the Local add-on with an Application Password, and you can:
 
 - **Pull** your entire live site (database + files) into a Local site
 - **Create a brand-new Local site** directly from your live site in one click
@@ -24,7 +24,7 @@ BlueBurn Live Sync for LocalWP is the **server-side half** of the BlueBurn Live 
 ## Installation
 
 1. Download this repository (or the latest [release](https://github.com/rambozindia/blueburn-live-sync/releases)) and upload the `blueburn-live-sync` folder to `/wp-content/plugins/`
-2. Activate **BlueBurn Live Sync for LocalWP** in WP Admin → Plugins
+2. Activate **BlueBurn Live Sync for Local** in WP Admin → Plugins
 3. Create an Application Password: **Users → Profile → Application Passwords** → name it (e.g. "Local Sync") → **Add New** → copy the password
 4. In Local, open the **BlueBurn Live Sync** panel, enter your site URL, username, and the Application Password, then connect
 

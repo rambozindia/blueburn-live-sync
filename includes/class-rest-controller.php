@@ -1,6 +1,6 @@
 <?php
 /**
- * REST API Controller for BlueBurn Live Sync for LocalWP.
+ * REST API Controller for BlueBurn Live Sync for Local.
  *
  * Namespace: wp-sync/v1
  * All endpoints require administrator authentication (Application Passwords).

@@ -1,6 +1,6 @@
 <?php
 /**
- * Uninstall handler for BlueBurn Live Sync for LocalWP.
+ * Uninstall handler for BlueBurn Live Sync for Local.
  * Removes the temp directory (exports, logs, step state) and plugin options.
  */
 

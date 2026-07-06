@@ -1,4 +1,4 @@
-=== BlueBurn Live Sync for LocalWP ===
+=== BlueBurn Live Sync for Local ===
 Contributors: rambozindia
 Tags: sync, migration, localwp, staging, deployment
 Requires at least: 5.6
@@ -12,7 +12,7 @@ Sync your live site with Local — pull it into Local for development and push c
 
 == Description ==
 
-BlueBurn Live Sync for LocalWP is the server-side half of the **BlueBurn Live Sync** add-on for [Local](https://localwp.com) (LocalWP). Install this plugin on your live site, connect from the Local add-on with an Application Password, and you can:
+BlueBurn Live Sync for Local is the server-side half of the **BlueBurn Live Sync** add-on for [Local](https://localwp.com) (LocalWP). Install this plugin on your live site, connect from the Local add-on with an Application Password, and you can:
 
 * **Pull** your entire live site (database + files) into a Local site
 * **Create a brand-new Local site** directly from your live site in one click
@@ -75,7 +75,7 @@ Nothing — ever. It is excluded from exports, and imports never extract it, so 
 == Changelog ==
 
 = 1.3.0 =
-* Changed: renamed to "BlueBurn Live Sync for LocalWP" (slug `blueburn-live-sync`)
+* Changed: renamed to "BlueBurn Live Sync for Local" (slug `blueburn-live-sync`)
 * Security: imports never extract wp-config.php and no backup copy of it is ever written to disk — auth keys/salts stay untouched
 * Security: log filename now uses a stored random key instead of a salt-derived hash
 * Changed: temp directory moved to `uploads/blueburn-live-sync/` (plugin-guidelines recommended location, multisite compatible)
@@ -108,4 +108,4 @@ Nothing — ever. It is excluded from exports, and imports never extract it, so 
 == Upgrade Notice ==
 
 = 1.3.0 =
-Renamed to BlueBurn Live Sync for LocalWP, with security hardening around wp-config.php handling. Recommended for all users.
+Renamed to BlueBurn Live Sync for Local, with security hardening around wp-config.php handling. Recommended for all users.
